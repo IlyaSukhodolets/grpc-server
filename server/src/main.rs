@@ -1,4 +1,5 @@
 use actix_web::{get, web, App, HttpServer, Responder};
+use std::env;
 
 #[get("/")]
 async fn get() -> impl Responder {
